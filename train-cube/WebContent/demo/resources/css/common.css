@@ -1,0 +1,105 @@
+/* common */
+body,html{width:100%;height:100%}
+p{
+	margin:0;
+	padding:0
+}
+.topbar-wrap{width:100%;height:100px;}
+.topbar-inner{font-size:18px;width:100%;height:100px;display:flex}
+.topbar-logo-wrap{
+	float:left;
+	width:200px;
+	height:100px;
+	background-image: linear-gradient(#4cdfe6, #7ab6fe);
+}
+.topbar-logo{
+	float:left;
+	width:100%;
+	height:100%;
+	background:url('../images/logo.png') 50% 50% no-repeat;
+}
+.navbar {margin-bottom: 10px;overflow: visible;}
+.navbar-list{float:left;}
+.top-info-wrap{
+	flex:1;
+	padding-left:20px;
+}
+.top-info-wrap .title{
+	float:left;
+}
+.top-info-wrap .title p:nth-child(1){
+	margin-top:35px;
+	font-size:18px;
+	font-weight:bold
+}
+.top-info-wrap .title p:nth-child(2){
+	margin-top:0;
+	font-size:15px;
+	color:#979797
+}
+.top-info-wrap .right{
+	float:right;
+	margin-top:35px
+}
+.top-info-wrap .right img{
+	margin-right:20px;
+    width: 27px;
+    height: 27px;
+}
+.tree{
+	    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#4cdfe6, #7ab6fe);
+}
+.tree, .treenode{
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.treenode{
+	background-image: linear-gradient(#4cdfe6, #7ab6fe);
+}
+.tree .treenode > li{
+	padding:0px 15px;
+	box-sizing:border-box;
+	margin:0;
+	margin-top:20px
+}
+.tree .treenode > li:nth-child(1){
+	margin-top:0;
+	padding-top:20px;
+	box-sizing:border-box;
+}
+.tree .treenode > li a{
+	color:#ffffff;
+	font-size:15px;
+}
+.row-fluid{
+	width: 100%;
+    height: 100%;
+    display:flex;
+}
+.row-fluid .span2{
+    position: fixed;
+    height: 100%;
+    left: 0;
+    width: 200px;
+}
+.container-fluid{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0
+}
+.row-fluid .span10{
+	position: fixed;
+    top: 100px;
+    width: 100%;
+    left: 200px;
+    right: 0;
+    height: 100%;
+    margin-left:0;
+}
